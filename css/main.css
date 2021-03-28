@@ -56,6 +56,18 @@ body {
   text-decoration: none;
 }
 
+.nav a:visited {
+  color: #fff;
+}
+
+.nav a:hover {
+  color: #bea59b;
+}
+
+.nav a:active {
+  color: #bea59b;
+}
+
 .banner {
   display: grid;
   grid-template-columns: 1fr;
@@ -93,6 +105,18 @@ body {
   color: #fff;
   font-weight: bold;
   text-decoration: none;
+}
+
+.banner a:visited {
+  background-color: transparent;
+}
+
+.banner a:hover {
+  background-color: #bea59b;
+}
+
+.banner a:active {
+  background-color: #bea59b;
 }
 
 .ship {
@@ -134,6 +158,18 @@ body {
   color: #522806;
   font-weight: bold;
   text-decoration: none;
+}
+
+.card a:visited {
+  background-color: #bea59b;
+}
+
+.card a:hover {
+  background-color: transparent;
+}
+
+.card a:active {
+  background-color: transparent;
 }
 
 .footer {
